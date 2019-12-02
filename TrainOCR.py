@@ -2,11 +2,9 @@ import numpy as np
 from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
 import pickle
-import sklearn
 from skimage import io
 from skimage.filters import threshold_otsu
 from skimage.transform import resize,rescale
-import cv2
 import os
 
 CHARACTERS = ["0","1","2","3","4","5","6","7","8","9","BA","PA"]
