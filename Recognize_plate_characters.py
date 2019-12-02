@@ -1,11 +1,5 @@
-import numpy as np
 import pickle
-import cv2
 import License_setup
-from skimage import io
-from skimage.filters import threshold_otsu
-from skimage.transform import resize
-import imutils
 from sklearn.metrics import confusion_matrix
 
 print("LOADING MODEL...")
