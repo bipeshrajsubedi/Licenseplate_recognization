@@ -12,6 +12,7 @@ print("LOADING MODEL...")
 
 modelPath = "./dataModel.sav"
 loadModel = pickle.load(open(modelPath,"rb"))
+
 print("#################################################")
 print("MODEL LOADED")
 print(loadModel)
